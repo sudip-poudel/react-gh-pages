@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+p{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.boxes{
+    /* background-color: aquamarine; */
+    /* display: block; */
+    width: 100%;
+    padding-bottom: 30px;
+}
+.box{
+    padding: 7px;
+    margin: 9px;
+}
+input{
+    border: 2px solid gray ;
+    border-radius: 9px;
+    height: 30px;
+    width: 400px;
+
+}
+textarea{
+    width: 400px;
+    resize: vertical;
+    max-height: 210px;
+    min-height: 80px;
+}
+.btn{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+button{
+     display: block;
+     border: 1px solid rgb(35, 238, 231) ;
+     border-radius: 5px;
+     background-color: rgb(94, 170, 160);
+     width: 80px;
+     height: 20px;
+}
+button:hover{
+    color: rgb(155, 53, 53);
+    background-color: aqua;
+}

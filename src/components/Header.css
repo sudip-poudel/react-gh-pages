@@ -1,0 +1,34 @@
+/* Header.css */
+
+
+  .container3{
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+  }
+  .heading{
+    margin: 0;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
